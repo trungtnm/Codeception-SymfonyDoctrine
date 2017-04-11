@@ -1,0 +1,24 @@
+{
+    "name": "trungtnm/codeception-symfonydoctrine",
+    "type": "codeception-module",
+    "description": "Codeception module to work with multiple Doctrine connections, forked from the original Codeception Doctrine module",
+    "keywords": ["codeception-module","doctrine","symfony"],
+    "homepage": "https://github.com/trungtnm/Codeception-SymfonyDoctrine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trung Tran",
+            "email": "trungtran07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "Trungtnm\\Codeception\\Module\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "codeception/codeception": "~2.2"
+    }
+}
